@@ -1,1 +1,9 @@
-This code outlines a complete machine learning pipeline designed to predict the likelihood of diabetes based on patient health metrics like age, BMI, glucose levels, and physical activity. The process begins with data preprocessing, where categorical values (such as "High/Normal" and "yes/no") are mapped to numerical binary values, and the dataset is normalized using a StandardScaler to ensure all features contribute equally to the analysis. The primary target of this workflow is to accurately classify the diabetes column. To achieve this, the data is split into training and testing sets and fed into three distinct algorithms: Logistic Regression, Decision Tree, and Random Forest. The final evaluation reveals significant variance in performance; while both the Logistic Regression and Random Forest models achieved an accuracy of 60%, the Decision Tree model performed exceptionally well with a perfect 100% accuracy on the test set, leading to the final step where the trained model is saved for future deployment using joblib.
+This code outlines a complete machine learning pipeline designed to predict the likelihood of diabetes based on 
+patient health metrics like age, BMI, glucose levels,and physical activity. The process begins with data preprocessing, 
+where categorical values (such as "High/Normal" and "yes/no") are mapped to numerical binary values, and the dataset is 
+normalized using a StandardScaler to ensure all features contribute equally to the analysis. The primary target of this 
+workflow is to accurately classify the diabetes column. To achieve this, the data is split into training and testing sets 
+and fed into three distinct algorithms: Logistic Regression, Decision Tree, and Random Forest. The final evaluation reveals 
+significant variance in performance; while both the Logistic Regression and Random Forest models achieved an accuracy of 60%, 
+the Decision Tree model performed exceptionally well with a perfect 100% accuracy on the test set, leading to the final step 
+where the trained model is saved for future deployment using joblib.
