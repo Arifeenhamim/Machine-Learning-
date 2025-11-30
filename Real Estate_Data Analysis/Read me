@@ -1,0 +1,7 @@
+This code implements a Linear Regression workflow designed for real estate price prediction. The process begins by loading 
+and cleaning the dataset to handle potential missing values, followed by defining the feature set using size_sqft, 
+bedrooms, and age_years. The specific target of this analysis is the Price_Thousands variable, aiming to estimate 
+property values based on these physical attributes. After splitting the data into training and testing sets, the 
+linear model is trained and evaluated. The results are highly effective, achieving an R-squared ($R^2$) score of 
+approximately 0.96, which indicates the model explains 96% of the variance in house prices. The analysis concludes with a 
+visualization plotting house size against price, confirming a strong positive correlation between the two.
